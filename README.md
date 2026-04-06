@@ -64,14 +64,10 @@ The challenge simulates real‑world constraints: fast, accurate, and deployable
 ---
 
 ## 📁 Repository Structure
-
-- `notebooks/` — EDA, preprocessing, training and inference experiments (Jupyter notebooks)
-- `data/` — (optional) local dataset files (not committed if private)
-- `models/` — saved fine-tuned checkpoints / exported artifacts
-- `submissions/` — generated submission CSV files for Zindi
-- `requirements.txt` — Python dependencies
-- `README.md` — project documentation
-
+├── submission.csv # Final test predictions
+├── Kenya_Clinical_Reasoning.ipynb # Full training & inference notebook
+├── README.md # This file
+└── LICENSE
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
