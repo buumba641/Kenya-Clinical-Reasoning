@@ -64,10 +64,15 @@ The challenge simulates real‑world constraints: fast, accurate, and deployable
 ---
 
 ## 📁 Repository Structure
-├── submission.csv # Final test predictions
-├── Kenya_Clinical_Reasoning.ipynb # Full training & inference notebook
-├── README.md # This file
-└── LICENSE
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
+kenya-clinical-reasoning/
+│
+├── submission(3).ipynb                              # Main training & inference notebook
+├── README.md                                        # Project documentation
+│
+├── Data/
+│   ├── train.csv                                    # Processed training data
+│   ├── train_raw.csv                                # Original training data
+│   ├── test.csv                                     # Processed test data
+│   ├── test_raw.csv                                 # Original test data
+│   ├── SampleSubmission.csv                         # Example submission format
+│   └── Kenya medical vignettes data dictionary.docx # Field descriptions
