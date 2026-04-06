@@ -65,11 +65,19 @@ The challenge simulates real‑world constraints: fast, accurate, and deployable
 
 ## 📁 Repository Structure
 kenya-clinical-reasoning/
+
 ├── submission(3).ipynb                # Main training & inference pipeline for the low-resource clinical NLP model
+
 ├── README.md                          # Project documentation and setup instructions
+
 ├── train.csv                          # Processed training data (cleaned and feature-engineered)
+
 ├── train_raw.csv                      # Original, untouched training dataset
+
 ├── test.csv                           # Processed test data used for final inference
+
 ├── test_raw.csv                       # Original, untouched test dataset
+
 ├── SampleSubmission.csv               # Required format for competition submission entries
+
 └── Kenya medical vignettes data dictionary.docx # Detailed descriptions of clinical fields and patient vignettes
